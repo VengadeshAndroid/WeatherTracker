@@ -46,7 +46,6 @@ Set up a WeatherAPI.com account to get your API key.
     ./gradlew assembleDebug
 
 ## Project Structure
-
 app/
 │-- src/
 |   ├── main/
