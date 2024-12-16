@@ -48,26 +48,22 @@ Set up a WeatherAPI.com account to get your API key.
 ## Project Structure
 app/
 │-- src/
-|   ├── main/
-|   │   ├── java/com.nooro.weather/
-|   │   │   ├── component/        # UI components
-|   │   │   ├── model/            # Data models
-|   │   │   ├── navigation/       # Navigation setup
-|   │   │   ├── state/            # UI State management
-|   │   │   ├── theme/            # Theme and styling
-|   │   │   ├── util/             # Utility classes
-|   │   │   ├── view/             # UI screens
-|   │   │   ├── viewmodel/        # ViewModels for each screen
-|   │   │   └── webservice/       # API service classes
-|   │   │   └── MainActivity.kt   # App entry point
-|   │   └── res/                  # Resources (layouts, images, strings)
-|   │
-|   ├── test/                     # Unit tests
-|   └── androidTest/              # Instrumentation tests
-|
-|-- build.gradle.kts              # Gradle build script
-|-- proguard-rules.pro            # Proguard configuration
-|-- README.md                     # Project documentation
+│   ├── main/
+│   │   ├── java/com.nooro.weather/
+│   │   │   ├── component/        # UI components
+│   │   │   ├── model/            # Data models
+│   │   │   ├── navigation/       # Navigation setup
+│   │   │   ├── state/            # UI State management
+│   │   │   ├── theme/            # Theme and styling
+│   │   │   ├── util/             # Utility classes
+│   │   │   ├── view/             # UI screens
+│   │   │   ├── viewmodel/        # ViewModels for each screen
+│   │   │   └── webservice/       # API service classes
+│   │   │   └── MainActivity.kt   # App entry point
+│   │   └── res/                  # Resources (layouts, images, strings)
+│   
+├── test/                         # Unit tests
+└── androidTest/                  # Instrumentation tests
 
 ## Dependencies
 Your project uses the following libraries:
