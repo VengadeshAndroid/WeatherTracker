@@ -16,7 +16,17 @@ The app uses WeatherAPI.com for fetching data and Jetpack Compose for a modern U
 **Modern UI**: Built using Jetpack Compose with clean and responsive designs.
 
 ## Tech Stack
-Language: Kotlin, UI: Jetpack Compose, Material3, Architecture: MVVM (Model-View-ViewModel), Dependency Injection: Hilt, Networking: Retrofit with Moshi/Converter Gson, Local Storage: SharedPreferences, Concurrency: Coroutines, Logging: Timber, Image Loading: Coil (for weather icons), Navigation: Jetpack Navigation Compose
+Language: Kotlin  
+UI: Jetpack Compose, Material3  
+Architecture: MVVM (Model-View-ViewModel)  
+Dependency Injection: Hilt  
+Networking: Retrofit with Moshi/Converter Gson  
+Local Storage: SharedPreferences  
+Concurrency: Coroutines  
+Logging: Timber  
+Image Loading: Coil (for weather icons)  
+Navigation: Jetpack Navigation Compose
+
 
 
 ## Project Setup
