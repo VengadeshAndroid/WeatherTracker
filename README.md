@@ -45,6 +45,22 @@ Set up a WeatherAPI.com account to get your API key.
    - Use the Run button in Android Studio or execute:
     ./gradlew assembleDebug
 
+ ## Dependencies
+Your project uses the following libraries:
+
+* Jetpack Compose
+* Retrofit for API calls
+* Moshi/Gson for JSON parsing
+* Hilt for dependency injection
+* Coil for image loading
+* Timber for logging
+* JUnit and Espresso for testing.
+
+## Key Highlights
+**Clean Architecture**: Separation of concerns with MVVM.
+**Modern UI**: Jetpack Compose for reactive, declarative UI.
+**Error Handling**: Handles invalid cities, network issues gracefully.
+
 ## Project Structure
 ```markdown
 ```text
@@ -70,19 +86,3 @@ app/
 |-- build.gradle.kts              # Gradle build script
 |-- proguard-rules.pro            # Proguard configuration
 |-- README.md                     # Project documentation
-
-## Dependencies
-Your project uses the following libraries:
-
-* Jetpack Compose
-* Retrofit for API calls
-* Moshi/Gson for JSON parsing
-* Hilt for dependency injection
-* Coil for image loading
-* Timber for logging
-* JUnit and Espresso for testing.
-
-## Key Highlights
-**Clean Architecture**: Separation of concerns with MVVM.
-**Modern UI**: Jetpack Compose for reactive, declarative UI.
-**Error Handling**: Handles invalid cities, network issues gracefully.
