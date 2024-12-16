@@ -63,7 +63,6 @@ Your project uses the following libraries:
 
 ## Project Structure
 ```markdown
-```text
 app/
 │-- src/
 │   ├── main/
