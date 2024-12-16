@@ -33,8 +33,8 @@ The app uses WeatherAPI.com for fetching data and Jetpack Compose for a modern U
 Install Android Studio (Latest Version).
 Set up a WeatherAPI.com account to get your API key.
 **Steps**
-1. Clone the repository:
-   - git clone https://github.com/YourUsername/WeatherTracker.git
+1. Clone the repository:    
+   - git clone https://github.com/VengadeshAndroid/WeatherTracker.git
    - cd WeatherTracker
 2. Open the project in Android Studio.
 
