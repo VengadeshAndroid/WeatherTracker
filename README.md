@@ -46,6 +46,8 @@ Set up a WeatherAPI.com account to get your API key.
     ./gradlew assembleDebug
 
 ## Project Structure
+```markdown
+```text
 app/
 │-- src/
 │   ├── main/
@@ -64,6 +66,10 @@ app/
 │   
 ├── test/                         # Unit tests
 └── androidTest/                  # Instrumentation tests
+
+|-- build.gradle.kts              # Gradle build script
+|-- proguard-rules.pro            # Proguard configuration
+|-- README.md                     # Project documentation
 
 ## Dependencies
 Your project uses the following libraries:
