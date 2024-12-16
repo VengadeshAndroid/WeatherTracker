@@ -16,16 +16,18 @@ The app uses WeatherAPI.com for fetching data and Jetpack Compose for a modern U
 **Modern UI**: Built using Jetpack Compose with clean and responsive designs.
 
 ## Tech Stack
-**Language**: Kotlin
-**UI**: Jetpack Compose, Material3
-**Architecture**: MVVM (Model-View-ViewModel)
-**Dependency Injection**: Hilt
-**Networking**: Retrofit with Moshi/Converter Gson
-**Local Storage**: SharedPreferences
-**Concurrency**: Coroutines
-**Logging**: Timber
-**Image Loading**: Coil (for weather icons)
+**Language**: Kotlin  
+**UI**: Jetpack Compose, Material3  
+**Architecture**: MVVM (Model-View-ViewModel)  
+**Dependency** Injection: Hilt  
+**Networking**: Retrofit with Moshi/Converter Gson  
+**Local Storage**: SharedPreferences  
+**Concurrency**: Coroutines  
+**Logging**: Timber  
+**Image Loading**: Coil (for weather icons)  
 **Navigation**: Jetpack Navigation Compose
+
+
 
 ## Project Setup
 
@@ -45,31 +47,7 @@ Set up a WeatherAPI.com account to get your API key.
    - Use the Run button in Android Studio or execute:
     ./gradlew assembleDebug
 
-## Project Structure
-app/
-│-- src/
-|   ├── main/
-|   │   ├── java/com.nooro.weather/
-|   │   │   ├── component/        # UI components
-|   │   │   ├── model/            # Data models
-|   │   │   ├── navigation/       # Navigation setup
-|   │   │   ├── state/            # UI State management
-|   │   │   ├── theme/            # Theme and styling
-|   │   │   ├── util/             # Utility classes
-|   │   │   ├── view/             # UI screens
-|   │   │   ├── viewmodel/        # ViewModels for each screen
-|   │   │   └── webservice/       # API service classes
-|   │   │   └── MainActivity.kt   # App entry point
-|   │   └── res/                  # Resources (layouts, images, strings)
-|   │
-|   ├── test/                     # Unit tests
-|   └── androidTest/              # Instrumentation tests
-|
-|-- build.gradle.kts              # Gradle build script
-|-- proguard-rules.pro            # Proguard configuration
-|-- README.md                     # Project documentation
-
-## Dependencies
+ ## Dependencies
 Your project uses the following libraries:
 
 * Jetpack Compose
@@ -84,3 +62,28 @@ Your project uses the following libraries:
 **Clean Architecture**: Separation of concerns with MVVM.
 **Modern UI**: Jetpack Compose for reactive, declarative UI.
 **Error Handling**: Handles invalid cities, network issues gracefully.
+
+## Project Structure
+```markdown
+app/
+│-- src/
+│   ├── main/
+│   │   ├── java/com.nooro.weather/
+│   │   │   ├── component/        # UI components
+│   │   │   ├── model/            # Data models
+│   │   │   ├── navigation/       # Navigation setup
+│   │   │   ├── state/            # UI State management
+│   │   │   ├── theme/            # Theme and styling
+│   │   │   ├── util/             # Utility classes
+│   │   │   ├── view/             # UI screens
+│   │   │   ├── viewmodel/        # ViewModels for each screen
+│   │   │   └── webservice/       # API service classes
+│   │   │   └── MainActivity.kt   # App entry point
+│   │   └── res/                  # Resources (layouts, images, strings)
+│   
+├── test/                         # Unit tests
+└── androidTest/                  # Instrumentation tests
+
+|-- build.gradle.kts              # Gradle build script
+|-- proguard-rules.pro            # Proguard configuration
+|-- README.md                     # Project documentation
